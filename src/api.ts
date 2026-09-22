@@ -28,7 +28,7 @@ export function getWebAppUrl(): string {
   }
 
   // 3. Default fallback URL (User's active project)
-  const fallbackUrl: string = 'https://script.google.com/macros/s/AKfycbz6hLxO1Jf1cSj-8aI9R-eKCbQkzxgotSCfydOVE_etm1qoQ1EXMPsswVe6WPFT-ebmSA/exec';
+  const fallbackUrl: string = '\https://script.google.com/macros/s/AKfycbyM9KCWchCd5oY8SGablfwtDKyau-lnUATRPKWSMG-I0Nar7tY_PfD9WFE1J36asyZl/exec';
   if (fallbackUrl && fallbackUrl.trim().length > 0) {
     return fallbackUrl.trim();
   }
